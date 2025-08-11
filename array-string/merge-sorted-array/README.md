@@ -43,6 +43,7 @@ Follow up: Can you come up with an algorithm that runs in `O(m + n)` time?
 #### Solutions:
 
 [C#](/array-string/merge-sorted-array/merge-sorted-array.cs)
+[TypeScript](/array-string/merge-sorted-array/merge-sorted-array.ts)
 
 Complexity
 - Time O(m + n)  
