@@ -2,21 +2,17 @@ public class Solution
 {
     public int RemoveElement(int[] nums, int val)
     {
-        int lastId = nums.Length - 1;
-        int i = 0;
+        int k = 0;
 
-        while (i < nums.Length && i <= lastId)
+        for (int i = 0; i < nums.Length; i++)
         {
-            if (nums[i] == val)
+            if (nums[i] != val)
             {
-                nums[i] = nums[lastId];
-                lastId--;
-                continue;
+                nums[k] = nums[i];
+                k++;
             }
-
-            i++;
         }
 
-        return i;
+        return k;
     }
 }
