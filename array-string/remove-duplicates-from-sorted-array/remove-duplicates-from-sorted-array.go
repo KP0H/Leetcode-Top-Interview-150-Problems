@@ -3,16 +3,13 @@ func removeDuplicates(nums []int) int {
         return 1
     }
 
-    var k int = 0;
-    var i int = 1;
-    for (i < len (nums)){
-        if (nums[k] != nums[i]){
-            k++;
-            nums[k] = nums[i]
+    pos := 0;
+    for i := 1; i < len(nums); i++ {
+        if (nums[pos] != nums[i]){
+            pos++;
+            nums[pos] = nums[i]
         }
-        i++
     }
-    k++;
 
-    return k
+    return pos + 1
 };
