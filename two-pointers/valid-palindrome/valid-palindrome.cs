@@ -7,10 +7,7 @@ public class Solution
             return false;
         }
 
-        int left = 0;
-        int right = s.Length - 1;
-
-        while (left <= right)
+        for (int left = 0, right = s.Length - 1; left < right;)
         {
             if (!char.IsLetterOrDigit(s[left]))
             {
@@ -24,13 +21,10 @@ public class Solution
                 continue;
             }
 
-            if (char.ToLower(s[left]) != char.ToLower(s[right]))
+            if (char.ToLower(s[left++]) != char.ToLower(s[right--]))
             {
                 return false;
             }
-
-            right--;
-            left++;
         }
 
         return true;
