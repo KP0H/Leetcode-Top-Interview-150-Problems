@@ -9,16 +9,14 @@ public class Solution
 
         for (int left = 0, right = s.Length - 1; left < right;)
         {
-            if (!char.IsLetterOrDigit(s[left]))
+            while (left < right && !char.IsLetterOrDigit(s[left]))
             {
                 left++;
-                continue;
             }
 
-            if (!char.IsLetterOrDigit(s[right]))
+            while (left < right && !char.IsLetterOrDigit(s[right]))
             {
                 right--;
-                continue;
             }
 
             if (char.ToLower(s[left++]) != char.ToLower(s[right--]))
