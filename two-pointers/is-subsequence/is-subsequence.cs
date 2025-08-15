@@ -2,15 +2,8 @@ public class Solution
 {
     public bool IsSubsequence(string s, string t)
     {
-        if (s.Length > t.Length)
-        {
-            return false;
-        }
-
-        if (string.IsNullOrEmpty(s))
-        {
-            return true;
-        }
+        if (s.Length == 0) return true;
+        if (s.Length > t.Length) return false;
 
         for (int i = 0, j = 0; i <= t.Length - 1; i++)
         {
