@@ -2,29 +2,18 @@ public class Solution
 {
     public bool CanConstruct(string ransomNote, string magazine)
     {
-        Dictionary<char, int> letters = new Dictionary<char, int>();
+        int[] counts = new int[26];
 
-        for (int i = 0; i < magazine.Length; i++)
+        foreach (char c in magazine)
         {
-            if (letters.ContainsKey(magazine[i]))
-            {
-                letters[magazine[i]]++;
-            }
-            else
-            {
-                letters.Add(magazine[i], 1);
-            }
+            counts[c - 'a']++;
         }
 
-        for (int i = 0; i < ransomNote.Length; i++)
+        foreach (char c in ransomNote)
         {
-            if (!letters.ContainsKey(ransomNote[i]))
-            {
-                return false;
-            }
+            counts[c - 'a']--;
 
-            letters[ransomNote[i]]--;
-            if (letters[ransomNote[i]] < 0)
+            if (counts[c - 'a'] < 0)
             {
                 return false;
             }
