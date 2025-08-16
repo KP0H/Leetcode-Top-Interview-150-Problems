@@ -10,3 +10,7 @@
 #### Two Pointers
 - [125. Valid Palindrome](/two-pointers/valid-palindrome/README.md)
 - [392. Is Subsequence](/two-pointers/is-subsequence/README.md) ![FollowUp](https://img.shields.io/badge/Open-FollowUp-orange)
+
+#### Hashmap
+
+- [383. Ransom Note](/hashmap/ransome-note/README.md)
