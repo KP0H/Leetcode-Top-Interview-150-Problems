@@ -2,29 +2,19 @@ public class Solution
 {
     public int MajorityElement(int[] nums)
     {
-        Dictionary<int, int> maj = new Dictionary<int, int>();
+        int count = 0;
+        int candidate = 0;
 
-        int majKey = 0;
-        for (int i = 0; i < nums.Length; i++)
+        foreach (int num in nums)
         {
-            if (maj.ContainsKey(nums[i]))
+            if (count == 0)
             {
-                maj[nums[i]]++;
-                if (nums[i] != majKey && maj[nums[i]] > maj[majKey])
-                {
-                    majKey = nums[i];
-                }
+                candidate = num;
             }
-            else
-            {
-                maj.Add(nums[i], 1);
-                if (majKey == 0)
-                {
-                    majKey = nums[i];
-                }
-            }
+
+            count += (candidate == num) ? 1 : -1;
         }
 
-        return majKey;
+        return candidate;
     }
 }
