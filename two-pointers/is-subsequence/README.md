@@ -6,13 +6,13 @@ A **subsequence** of a string is a new string that is formed from the original s
 
 #### Example 1:
 
-**Input:** s = "abc", t = "ahbgdc"  
-**Output:** true
+> **Input:** s = "abc", t = "ahbgdc"  
+> **Output:** true
 
 ####Example 2:
 
-**Input:** s = "axc", t = "ahbgdc"  
-**Output:** false
+> **Input:** s = "axc", t = "ahbgdc"  
+> **Output:** false
  
 
 #### Constraints:
