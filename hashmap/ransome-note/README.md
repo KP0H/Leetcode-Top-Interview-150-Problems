@@ -29,3 +29,4 @@ Each letter in `magazine` can only be used once in `ransomNote`.
 
 - [C#](/hashmap/ransome-note/ransome-note.cs)
 - [TypeScript](/hashmap/ransome-note/ransome-note.ts)
+- [Go](/hashmap/ransome-note/ransome-note.go)
