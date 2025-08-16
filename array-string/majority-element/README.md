@@ -25,5 +25,8 @@ The majority element is the element that appears more than `⌊n / 2⌋` times. 
 
 - [C#](/array-string/majority-element/majority-element.cs)
 - [TypeScript](/array-string/majority-element/majority-element.ts)
+- [Go](/array-string/majority-element/majority-element.go)
 
 **Follow-up:** Could you solve the problem in linear time and in `O(1)` space?
+
+Yes. Boyer–Moore Majority Vote Algorithm
