@@ -39,4 +39,4 @@ You can return the answer in any order.
 
 Complexity
 - Time O(n) - we check each element once
-- Space O(n) - extra hashmap
+- Space O(n) - in the worst case we add all to dictionary/hashmap

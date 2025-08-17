@@ -2,24 +2,22 @@ public class Solution
 {
     public int[] TwoSum(int[] nums, int target)
     {
-        Dictionary<int, List<int>> dict = new Dictionary<int, List<int>>();
+        Dictionary<int, int> dict = new Dictionary<int, int>();
 
         for (int i = 0; i < nums.Length; i++)
         {
-            if (dict.ContainsKey(target - nums[i]))
+            int complement = target - nums[i];
+            if (dict.ContainsKey(complement))
             {
-                return [i, dict[target - nums[i]][0]];
+                return [i, dict[complement]];
             }
 
-            if (dict.ContainsKey(nums[i]))
+            if (!dict.ContainsKey(nums[i]))
             {
-                dict[nums[i]].Add(i);
-            }
-            else
-            {
-                dict.Add(nums[i], new List<int> { i });
+                dict[nums[i]] = i;
             }
         }
+
         return null;
     }
 }
