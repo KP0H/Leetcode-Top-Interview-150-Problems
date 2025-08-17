@@ -4,42 +4,20 @@ public class Solution
     {
         List<string> result = new List<string>();
         if (nums.Length == 0) return result;
-        int rangeStart, rangeEnd;
-        rangeStart = rangeEnd = nums[0];
 
-        int nextInRange = rangeStart + 1;
+        int start = nums[0];
 
-        for (int i = 1; i < nums.Length; i++)
+        for (int i = 1; i <= nums.Length; i++)
         {
-            if (nums[i] == nextInRange)
+            if (i == nums.Length || nums[i] != nums[i - 1] + 1)
             {
-                nextInRange++;
-                continue;
+                int end = nums[i - 1];
+                result.Add(start == end ? $"{start}" : $"{start}->{end}");
+                if (i < nums.Length)
+                {
+                    start = nums[i];
+                }
             }
-
-            rangeEnd = nums[i - 1];
-
-            if (rangeStart == rangeEnd)
-            {
-                result.Add($"{rangeStart}");
-            }
-            else
-            {
-                result.Add($"{rangeStart}->{rangeEnd}");
-            }
-
-            rangeStart = rangeEnd = nums[i];
-            nextInRange = rangeStart + 1;
-        }
-
-        rangeEnd = nums[nums.Length - 1];
-        if (rangeStart == rangeEnd)
-        {
-            result.Add($"{rangeStart}");
-        }
-        else
-        {
-            result.Add($"{rangeStart}->{rangeEnd}");
         }
 
         return result;

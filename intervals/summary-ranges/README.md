@@ -40,3 +40,7 @@ Each range `[a,b]` in the list should be output as:
  #### Solutions:
 
  - [C#](/intervals/summary-ranges/summary-ranges.cs)
+
+Complexity
+- Time O(n) - we check each element once
+- Space O(1) - no extra arrays, except the result
