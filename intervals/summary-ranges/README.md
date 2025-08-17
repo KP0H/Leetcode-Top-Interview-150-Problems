@@ -40,6 +40,7 @@ Each range `[a,b]` in the list should be output as:
  #### Solutions:
 
  - [C#](/intervals/summary-ranges/summary-ranges.cs)
+ - [TypeScript](/intervals/summary-ranges/summary-ranges.ts)
 
 Complexity
 - Time O(n) - we check each element once
