@@ -1,24 +1,22 @@
 func summaryRanges(nums []int) []string {
-    result := []string{};
-
     if len(nums) == 0 {
-        return result;
+        return nil
     }
 
-    start := nums[0];
+	var result []string
+    start := nums[0]
 
     for i := 1; i <= len(nums); i++ {
         if i == len(nums) || nums[i] != nums[i - 1] + 1 {
-            end := nums[i - 1];
-			
+            end := nums[i - 1]
 			if start == end {
-				result = append(result, fmt.Sprintf("%d",start));
+				result = append(result, strconv.Itoa(start))
 			} else {
-				result = append(result, fmt.Sprintf("%d->%d",start,end));
+				result = append(result, fmt.Sprintf("%d->%d",start,end))
 			}            
             
             if i < len(nums) {
-				start = nums[i];
+				start = nums[i]
 			}
         }
     }
