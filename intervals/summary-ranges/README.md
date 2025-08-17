@@ -41,6 +41,7 @@ Each range `[a,b]` in the list should be output as:
 
  - [C#](/intervals/summary-ranges/summary-ranges.cs)
  - [TypeScript](/intervals/summary-ranges/summary-ranges.ts)
+ - [Go](/intervals/summary-ranges/summary-ranges.go)
 
 Complexity
 - Time O(n) - we check each element once
