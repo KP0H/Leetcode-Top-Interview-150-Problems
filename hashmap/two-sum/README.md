@@ -33,6 +33,7 @@ You can return the answer in any order.
  #### Solutions:
 
  - [C#](/hashmap/two-sum/two-sum.cs)
+ - [TypeScript](/hashmap/two-sum/two-sum.ts)
  
 
 **Follow-up:** Can you come up with an algorithm that is less than `O(n²)` time complexity?
