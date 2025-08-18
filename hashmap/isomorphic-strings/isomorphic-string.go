@@ -6,18 +6,20 @@ func isIsomorphic(s string, t string) bool {
     dict := make(map[rune]rune)
     used := make(map[rune]bool)
 
-    for i := 0; i < len(s); i++ {
-        a := rune(s[i])
-		b := rune(t[i])
+	tRunes := []rune(t)
+    sRunes := []rune(s)
+
+    for i, a := range sRunes {
+		b := tRunes[i]
 		
-        if dictedB, exist := dict[a]; exist {
-            if dictedB != b {
+        if mapped, exist := dict[a]; exist {
+            if mapped != b {
 				return false
 			}
             continue;
         }
 
-        if _, exist := used[b]; exist {
+        if used[b] {
 			return false
 		}
 
