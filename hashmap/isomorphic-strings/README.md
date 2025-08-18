@@ -36,6 +36,8 @@ All occurrences of a character must be replaced with another character while pre
  #### Solutions:
 
  - [C#](/hashmap/isomorphic-strings/isomorphic-strings.cs)
+ - [TypeScript](/hashmap/isomorphic-strings/isomorphic-strings.ts)
+ - [Go](/hashmap/isomorphic-strings/isomorphic-string.go)
 
 Complexity
 - Time O(n) - we check each element once
