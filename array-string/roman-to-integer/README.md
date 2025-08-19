@@ -51,6 +51,7 @@ Given a roman numeral, convert it to an integer.
 
 - [C#](/array-string/roman-to-integer/roman-to-integer.cs)
 - [TypeScipt](/array-string/roman-to-integer/roman-to-integer.ts)
+- [Go](/array-string/roman-to-integer/roman-to-integer.go)
 
 Complexity
 - Time O(n) - we check each element once
