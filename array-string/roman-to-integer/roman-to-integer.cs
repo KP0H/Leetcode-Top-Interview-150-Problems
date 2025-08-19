@@ -1,6 +1,6 @@
 public class Solution
 {
-    public static int RomanToInt(string s)
+    public int RomanToInt(string s)
     {
         var dict = new Dictionary<char, int>()
         {
@@ -13,31 +13,18 @@ public class Solution
             {'M', 1000},
         };
 
-        int count = 1;
         int result = 0;
-        for (int i = 1; i <= s.Length; i++)
+        for (int i = 0; i < s.Length; i++)
         {
-            if (i == s.Length)
+            int value = dict[s[i]];
+            if (i + 1 < s.Length && value < dict[s[i + 1]])
             {
-                result += count * dict[s[i - 1]];
-                continue;
-            }
-
-            if (s[i] == s[i - 1])
-            {
-                count++;
-                continue;
-            }
-
-            if (dict[s[i]] > dict[s[i - 1]])
-            {
-                result -= count * dict[s[i - 1]];
+                result -= value;
             }
             else
             {
-                result += count * dict[s[i - 1]];
+                result += value;
             }
-            count = 1;
         }
 
         return result;
