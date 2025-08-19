@@ -3,18 +3,13 @@ public class Solution
     public int RomanToInt(string s)
     {
         int result = 0;
+        int prev = 0;
 
-        for (int i = 0; i < s.Length; i++)
+        for (int i = s.Length - 1; i >= 0; i--)
         {
             int value = Val(s[i]);
-            if (i + 1 < s.Length && value < Val(s[i + 1]))
-            {
-                result -= value;
-            }
-            else
-            {
-                result += value;
-            }
+            result += value < prev ? -value : value;
+            prev = value;
         }
 
         return result;
