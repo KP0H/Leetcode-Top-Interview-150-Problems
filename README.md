@@ -21,3 +21,7 @@
 #### Intervals
 
 - [228. Summary Ranges](/intervals/summary-ranges/README.md)
+
+#### Stack
+
+- [20. Valid Parentheses](/stack/valid-parentheses/README.md)
