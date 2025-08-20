@@ -2,46 +2,29 @@ public class Solution
 {
     public bool IsValid(string s)
     {
-        if (string.IsNullOrEmpty(s) || s.Length == 1)
+        var pairs = new Dictionary<char, char>
         {
-            return false;
-        }
-
-        var bracketsDict = new Dictionary<char, char>()
-        {
-            {'(',')'},
-            {'{','}'},
-            {'[',']'},
+            {')', '('},
+            {']', '['},
+            {'}', '{'}
         };
+        var stack = new Stack<char>();
 
-        var bracketsStack = new Stack<char>();
-        for (int i = 0; i < s.Length; i++)
+        foreach (var c in s)
         {
-            if (!bracketsStack.TryPeek(out var lastBracket))
+            if (pairs.ContainsKey(c))
             {
-                bracketsStack.Push(s[i]);
-                continue;
-            }
-
-            if (bracketsDict.ContainsKey(s[i]))
-            {
-                bracketsStack.Push(s[i]);
-            }
-            else if (bracketsDict[lastBracket] == s[i])
-            {
-                bracketsStack.Pop();
+                if (stack.Count == 0 || stack.Pop() != pairs[c])
+                {
+                    return false;
+                }
             }
             else
             {
-                return false;
+                stack.Push(c);
             }
         }
 
-        if (bracketsStack.Count > 0)
-        {
-            return false;
-        }
-
-        return true;
+        return stack.Count == 0;
     }
 }

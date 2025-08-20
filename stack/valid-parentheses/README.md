@@ -41,3 +41,7 @@ An input string is valid if:
  #### Solutions:
 
  - [C#](/stack/valid-parentheses/valid-parentheses.cs)
+
+Complexity
+- Time O(n) - one pass
+- Space O(n) - in the worst case all characters are opening
