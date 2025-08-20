@@ -42,6 +42,7 @@ An input string is valid if:
 
  - [C#](/stack/valid-parentheses/valid-parentheses.cs)
  - [TypeSctipt](/stack/valid-parentheses/valid-parentheses.ts)
+ - [Go](/stack/valid-parentheses/valid-parentheses.go)
 
 Complexity
 - Time O(n) - one pass
