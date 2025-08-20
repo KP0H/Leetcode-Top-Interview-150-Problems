@@ -2,26 +2,25 @@ public class Solution
 {
     public bool IsValid(string s)
     {
-        var pairs = new Dictionary<char, char>
-        {
-            {')', '('},
-            {']', '['},
-            {'}', '{'}
-        };
         var stack = new Stack<char>();
-
-        foreach (var c in s)
+        foreach (var c in s.AsSpan())
         {
-            if (pairs.ContainsKey(c))
+            switch (c)
             {
-                if (stack.Count == 0 || stack.Pop() != pairs[c])
-                {
-                    return false;
-                }
-            }
-            else
-            {
-                stack.Push(c);
+                case '(':
+                case '[':
+                case '{':
+                    stack.Push(c);
+                    break;
+                case ')':
+                    if (stack.Count == 0 || stack.Pop() != '(') return false;
+                    break;
+                case ']':
+                    if (stack.Count == 0 || stack.Pop() != '[') return false;
+                    break;
+                case '}':
+                    if (stack.Count == 0 || stack.Pop() != '{') return false;
+                    break;
             }
         }
 
