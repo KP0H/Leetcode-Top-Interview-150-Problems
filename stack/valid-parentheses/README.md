@@ -41,6 +41,7 @@ An input string is valid if:
  #### Solutions:
 
  - [C#](/stack/valid-parentheses/valid-parentheses.cs)
+ - [TypeSctipt](/stack/valid-parentheses/valid-parentheses.ts)
 
 Complexity
 - Time O(n) - one pass
