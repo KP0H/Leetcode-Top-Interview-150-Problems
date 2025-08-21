@@ -15,19 +15,16 @@ public class Solution
     {
         if (head == null || head.next == null) return false;
 
-        var set = new HashSet<ListNode>();
+        var slow = head;
+        var fast = head.next;
 
-        while (head.next != null)
+        while (slow != fast)
         {
-            if (set.Contains(head))
-            {
-                return true;
-            }
-
-            set.Add(head);
-            head = head.next;
+            if (fast == null || fast.next == null) return false;
+            slow = slow.next;
+            fast = fast.next.next;
         }
 
-        return false;
+        return true;
     }
 }
