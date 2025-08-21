@@ -39,6 +39,7 @@ Return ``true`` _if there is a cycle in the linked list_. Otherwise, return `fal
  #### Solutions:
 
  - [C#](/linked-list/linked-list-cycle/linked-list-cycle.cs)
+ - [TypeScript](/linked-list/linked-list-cycle/linked-list-cycle.ts)
 
 **Follow up:** Can you solve it using `O(1)` (i.e. constant) memory?
 
