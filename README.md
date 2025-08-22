@@ -29,3 +29,7 @@
 ##### Linked List
 
 - [141. Linked List Cycle](/linked-list/linked-list-cycle/README.md)
+
+##### Binary Tree General
+
+- [104. Maximum Depth of Binary Tree](/binary-tree-general/maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.cs)
