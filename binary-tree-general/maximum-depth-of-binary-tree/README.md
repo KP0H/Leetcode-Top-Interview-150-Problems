@@ -22,7 +22,8 @@ A binary tree's **maximum depth** is the number of nodes along the longest path 
 
  #### Solutions:
 
- - [C#](/binary-tree-general/maximum-depth-of-binary-tree/README.md)
+ - [C#](/binary-tree-general/maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.cs)
+ - [TypeSctipt](/binary-tree-general/maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.ts)
 
 Complexity
 - Time O(n) - one pass
