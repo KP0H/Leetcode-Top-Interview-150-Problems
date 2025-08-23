@@ -26,6 +26,7 @@ Return _the maximum profit you can achieve from this transaction_. If you canno
 
 - [C#](/array-string/best-time-to-buy-and-sell-stock/best-time-to-buy-and-sell-stock.cs)
 - [TypeScript](/array-string/best-time-to-buy-and-sell-stock/best-time-to-buy-and-sell-stock.ts)
+- [Go](/array-string/best-time-to-buy-and-sell-stock/best-time-to-buy-and-sell-stock.go)
 
 Complexity
 - Time O(n)  
