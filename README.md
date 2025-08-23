@@ -7,6 +7,7 @@
 - [26. Remove Duplicates from Sorted Array](/array-string//remove-duplicates-from-sorted-array/README.md)
 - [169. Majority Element](/array-string/majority-element/README.md)
 - [13. Roman to Integer](/array-string/roman-to-integer/README.md)
+- [121. Best Time to Buy and Sell Stock](/array-string/best-time-to-buy-and-sell-stock/README.md)
 
 #### Two Pointers
 - [125. Valid Palindrome](/two-pointers/valid-palindrome/README.md)
