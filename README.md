@@ -18,6 +18,7 @@
 - [383. Ransom Note](/hashmap/ransome-note/README.md)
 - [1. Two Sum](/hashmap/two-sum/README.md)
 - [205. Isomorphic Strings](/hashmap/isomorphic-strings/README.md)
+- [290. Word Pattern](/hashmap/word-pattern/README.md)
 
 #### Intervals
 
