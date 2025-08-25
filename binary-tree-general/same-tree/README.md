@@ -31,6 +31,8 @@ Two binary trees are considered the same if they are structurally identical, and
  #### Solutions:
 
  - [C#](/binary-tree-general/same-tree/README.md)
+ - [TypeScript](/binary-tree-general/same-tree/same-tree.ts)
+ - [Go](/binary-tree-general/same-tree/same-tree.go)
 
 Complexity
 - Time O(n)
