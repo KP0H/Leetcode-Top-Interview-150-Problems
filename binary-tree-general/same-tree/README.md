@@ -34,4 +34,4 @@ Two binary trees are considered the same if they are structurally identical, and
 
 Complexity
 - Time O(n)
-- Space O(h) / O(n)
+- Space O(h) / O(w) for queue / O(n)
