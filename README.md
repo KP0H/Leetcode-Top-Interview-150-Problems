@@ -19,6 +19,7 @@
 - [1. Two Sum](/hashmap/two-sum/README.md)
 - [205. Isomorphic Strings](/hashmap/isomorphic-strings/README.md)
 - [290. Word Pattern](/hashmap/word-pattern/README.md)
+- [202. Happy Number](/hashmap/happy-number/README.md)
 
 #### Intervals
 
