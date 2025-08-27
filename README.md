@@ -20,6 +20,7 @@
 - [205. Isomorphic Strings](/hashmap/isomorphic-strings/README.md)
 - [290. Word Pattern](/hashmap/word-pattern/README.md)
 - [202. Happy Number](/hashmap/happy-number/README.md)
+- [242. Valid Anagram](/hashmap/valid-anagram/README.md)
 
 #### Intervals
 
