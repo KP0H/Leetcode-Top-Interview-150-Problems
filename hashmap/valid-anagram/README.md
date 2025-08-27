@@ -16,3 +16,13 @@ Given two strings `s` and `t`, return `true` if `t` is an anagram of `
 - `s` and `t` consist of lowercase English letters.
 
 **Follow up:** What if the inputs contain Unicode characters? How would you adapt your solution to such a case?
+
+ #### Solutions:
+
+ - [C#](/hashmap/valid-anagram/valid-anagram.cs)
+ - [TypeScript](/hashmap/valid-anagram/valid-anagram.ts)
+ - [Go](/hashmap/valid-anagram/valid-anagram.go)
+
+Complexity
+- Time O(n)
+- Space O(1) with array, O(k) k - unique symbols with dict
