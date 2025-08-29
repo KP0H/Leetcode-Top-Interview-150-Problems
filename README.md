@@ -8,6 +8,7 @@
 - [169. Majority Element](/array-string/majority-element/README.md)
 - [13. Roman to Integer](/array-string/roman-to-integer/README.md)
 - [121. Best Time to Buy and Sell Stock](/array-string/best-time-to-buy-and-sell-stock/README.md)
+- [58. Length of Last Word](/array-string/length-of-last-word/README.md)
 
 #### Two Pointers
 - [125. Valid Palindrome](/two-pointers/valid-palindrome/README.md)
