@@ -10,6 +10,7 @@
 - [121. Best Time to Buy and Sell Stock](/array-string/best-time-to-buy-and-sell-stock/README.md)
 - [58. Length of Last Word](/array-string/length-of-last-word/README.md)
 - [14. Longest Common Prefix](/array-string/longest-common-prefix/README.md)
+- [28. Find the Index of the First Occurrence in a String](/array-string/find-the-index-of-the-first-occurrence-in-a-string/README.md)
 
 #### Two Pointers
 - [125. Valid Palindrome](/two-pointers/valid-palindrome/README.md)
