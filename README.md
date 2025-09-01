@@ -45,4 +45,4 @@
 
 ##### Sliding window
 
-- [209. Minimum Size Subarray Sum](/sliding-window/minimum-size-subarray-sum/README.md) ![FollowUp](https://img.shields.io/badge/Open-FollowUp-orange)
+- [209. Minimum Size Subarray Sum](/sliding-window/minimum-size-subarray-sum/README.md)
