@@ -33,3 +33,7 @@ Complexity
 - Space O(1)
 
 **Follow up:** If you have figured out the `O(n)` solution, try coding another solution of which the time complexity is `O(n log(n))`.
+
+Complexity
+- Time O(n log(n))
+- Space O(n)
