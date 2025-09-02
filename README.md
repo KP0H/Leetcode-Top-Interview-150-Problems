@@ -46,3 +46,7 @@
 ##### Sliding window
 
 - [209. Minimum Size Subarray Sum](/sliding-window/minimum-size-subarray-sum/README.md)
+
+##### Binary Tree BFS
+
+- [637. Average of Levels in Binary Tree](/binary-tree-bfs/average-of-levels-in-binary-tree/README.md)
