@@ -24,6 +24,7 @@ Given an integer array `nums` and an integer `k`, return `true` _if there a
 #### Solutions:
 
 - [C#](/hashmap/contains-duplicate-II/contains-duplicate-II.cs)
+- [TypeScript](/hashmap/contains-duplicate-II/contains-duplicate-II.ts)
 
 Complexity
 - Time O(n)
