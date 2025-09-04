@@ -22,6 +22,8 @@ Given the `root` of a Binary Search Tree (BST), return _the minimum absolute 
 #### Solutions:
 
 - [C#](/binary-search-tree/minimum-absolute-difference-in-bst/minimum-absolute-difference-in-bst.cs)
+- [TypeScript](/binary-search-tree/minimum-absolute-difference-in-bst/minimum-absolute-difference-in-bst.ts)
+- [Go](/binary-search-tree/minimum-absolute-difference-in-bst/minimum-absolute-difference-in-bst.go)
 
 Complexity
 - Time O(n)
