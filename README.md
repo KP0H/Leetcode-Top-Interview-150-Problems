@@ -51,3 +51,7 @@
 ##### Binary Tree BFS
 
 - [637. Average of Levels in Binary Tree](/binary-tree-bfs/average-of-levels-in-binary-tree/README.md)
+
+##### Binary Search Tree
+
+- [530. Minimum Absolute Difference in BST](/binary-search-tree/minimum-absolute-difference-in-bst/README.md)
