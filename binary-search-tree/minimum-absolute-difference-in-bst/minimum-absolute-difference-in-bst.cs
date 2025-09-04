@@ -11,7 +11,8 @@
  *     }
  * }
  */
-public class Solution {
+public class Solution
+{
     public int GetMinimumDifference(TreeNode root)
     {
         var stack = new Stack<TreeNode>();
@@ -35,6 +36,44 @@ public class Solution {
             curr = curr.right;
         }
 
+        return min;
+    }
+
+    public int GetMinimumDifferenceMorris(TreeNode root)
+    {
+        int min = int.MaxValue;
+        int? prev = null;
+        TreeNode curr = root, pre = null;
+
+        while (curr != null)
+        {
+            if (curr.left == null)
+            {
+                if (prev.HasValue)
+                    min = Math.Min(min, curr.val - prev.Value);
+                prev = curr.val;
+                curr = curr.right;
+            }
+            else
+            {
+                pre = curr.left;
+                while (pre.right != null && pre.right != curr) pre = pre.right;
+
+                if (pre.right == null)
+                {
+                    pre.right = curr;
+                    curr = curr.left;
+                }
+                else
+                {
+                    pre.right = null;
+                    if (prev.HasValue)
+                        min = Math.Min(min, curr.val - prev.Value);
+                    prev = curr.val;
+                    curr = curr.right;
+                }
+            }
+        }
         return min;
     }
 }

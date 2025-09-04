@@ -25,6 +25,6 @@ Given the `root` of a Binary Search Tree (BST), return _the minimum absolute 
 
 Complexity
 - Time O(n)
-- Space O(h)
+- Space O(h) / O(1) fir Morris traversal
 
 **Note:** This question is the same as 783: [https://leetcode.com/problems/minimum-distance-between-bst-nodes/](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)
