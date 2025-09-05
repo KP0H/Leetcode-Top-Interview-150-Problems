@@ -26,7 +26,9 @@ Given the `root` of a binary tree, invert the tree, and return _its root_.
 
  #### Solutions:
 
- - [C#](/binary-tree-general/invert-binary-tree/invert-binary-tree.cs)
+- [C#](/binary-tree-general/invert-binary-tree/invert-binary-tree.cs)
+- [TypeScript](/binary-tree-general/invert-binary-tree/invert-binary-tree.ts)
+- [Go](/binary-tree-general/invert-binary-tree/invert-binary-tree.go)
 
 Complexity
 - Time O(n)
