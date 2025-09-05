@@ -43,6 +43,7 @@
 
 - [104. Maximum Depth of Binary Tree](/binary-tree-general/maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.cs)
 - [100. Same Tree](/binary-tree-general/same-tree/README.md)
+- [226. Invert Binary Tree](/binary-tree-general/invert-binary-tree/README.md)
 
 ##### Sliding window
 
