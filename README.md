@@ -56,3 +56,7 @@
 ##### Binary Search Tree
 
 - [530. Minimum Absolute Difference in BST](/binary-search-tree/minimum-absolute-difference-in-bst/README.md)
+
+##### Graph General
+
+- [200. Number of Islands](/graph-general/number-of-islands/README.md)
