@@ -6,7 +6,7 @@ All occurrences of a character must be replaced with another character while pre
 
  
 
-#### Example 1:
+**Example 1:**
 
 **Input:** s = "egg", t = "add"  
 **Output:** true  
@@ -14,26 +14,26 @@ All occurrences of a character must be replaced with another character while pre
 - Mapping `'e'` to `'a'`.
 - Mapping `'g'` to `'d'`.
 
-#### Example 2:
+**Example 2:**
 
 **Input:** s = "foo", t = "bar"  
 **Output:** false  
 **Explanation:** The strings `s` and `t` can not be made identical as `'o'` needs to be mapped to both `'a'` and `'r'`.
 
-#### Example 3:
+**Example 3:**
 
 **Input:** s = "paper", t = "title"  
 **Output:** true
 
  
 
-#### Constraints:
+**Constraints:**
 
 - `1 <= s.length <= 5 * 104`
 - `t.length == s.length`
 - `s` and `t` consist of any valid ascii character.
 
- #### Solutions:
+ **Solutions:**
 
  - [C#](/hashmap/isomorphic-strings/isomorphic-strings.cs)
  - [TypeScript](/hashmap/isomorphic-strings/isomorphic-strings.ts)

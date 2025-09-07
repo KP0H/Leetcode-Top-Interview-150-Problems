@@ -10,7 +10,7 @@ Each range `[a,b]` in the list should be output as:
 - `"a"` if `a == b`
  
 
-#### Example 1:
+**Example 1:**
 
 > **Input:** nums = [0,1,2,4,5,7]  
 > **Output:** ["0->2","4->5","7"]  
@@ -19,7 +19,7 @@ Each range `[a,b]` in the list should be output as:
 > [4,5] --> "4->5"  
 > [7,7] --> "7"  
 
-#### Example 2:
+**Example 2:**
 
 > **Input:** nums = [0,2,3,4,6,8,9]  
 > **Output:** ["0","2->4","6","8->9"]  
@@ -30,14 +30,14 @@ Each range `[a,b]` in the list should be output as:
 > [8,9] --> "8->9"
  
 
-#### Constraints:
+**Constraints:**
 
 - `0 <= nums.length <= 20`
 - `-231 <= nums[i] <= 231 - 1`
 - All the values of `nums` are **unique**.
 - `nums` is sorted in ascending order.
 
- #### Solutions:
+ **Solutions:**
 
  - [C#](/intervals/summary-ranges/summary-ranges.cs)
  - [TypeScript](/intervals/summary-ranges/summary-ranges.ts)

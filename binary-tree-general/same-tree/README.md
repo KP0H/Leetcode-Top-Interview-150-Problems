@@ -2,33 +2,33 @@ Given the roots of two binary trees `p` and `q`, write a function to check if
 
 Two binary trees are considered the same if they are structurally identical, and the nodes have the same value.
 
-#### Example 1:
+**Example 1:**
 
 ![](/binary-tree-general/same-tree/img/ex1.png)
 
 > **Input:** p = [1,2,3], q = [1,2,3]  
 > **Output:** true
 
-#### Example 2:
+**Example 2:**
 
 ![](/binary-tree-general/same-tree/img/ex2.png)
 
 > **Input:** p = [1,2], q = [1,null,2]  
 > **Output:** false
 
-#### Example 3:
+**Example 3:**
 
 ![](/binary-tree-general/same-tree/img/ex3.png)
 
 > **Input:** p = [1,2,1], q = [1,1,2]  
 > **Output:** false
 
-#### Constraints:
+**Constraints:**
 
 - The number of nodes in both trees is in the range `[0, 100]`.
 - `-104 <= Node.val <= 104`
 
- #### Solutions:
+ **Solutions:**
 
  - [C#](/binary-tree-general/same-tree/same-tree.cs)
  - [TypeScript](/binary-tree-general/same-tree/same-tree.ts)

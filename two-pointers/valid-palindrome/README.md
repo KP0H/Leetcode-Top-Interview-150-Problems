@@ -4,19 +4,19 @@ Given a string s, return `true` _if it is a **palindrome**_, or `false` _otherwi
 
  
 
-#### Example 1:
+**Example 1:**
 
 > **Input:** s = "A man, a plan, a canal: Panama"  
 > **Output:** `true`  
 > **Explanation:** "amanaplanacanalpanama" is a palindrome.
 
-#### Example 2:
+**Example 2:**
 
 > **Input:** s = "race a car"  
 > **Output:** `false`  
 > **Explanation:** "raceacar" is not a palindrome.
 
-#### Example 3:
+**Example 3:**
 
 > **Input:** s = " "  
 > **Output:** `true`  
@@ -24,12 +24,12 @@ Given a string s, return `true` _if it is a **palindrome**_, or `false` _otherwi
 > Since an empty string reads the same forward and backward, it is a palindrome.
  
 
-#### Constraints:
+**Constraints:**
 
 - `1 <= s.length <= 2 * 105`
 - `s` consists only of printable ASCII characters.
 
-#### Solutions:
+**Solutions:**
 
 - [C#](/two-pointers/valid-palindrome/valid-palindrome.cs)
 - [TypeScript](/two-pointers//valid-palindrome/valid-palindrome.ts)

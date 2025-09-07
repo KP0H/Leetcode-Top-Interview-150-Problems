@@ -6,7 +6,7 @@ Return ``true`` _if there is a cycle in the linked list_. Otherwise, return `fal
 
  
 
-#### Example 1:
+**Example 1:**
 
 ![Example 1](/linked-list/linked-list-cycle/img/example1.png)
 
@@ -14,7 +14,7 @@ Return ``true`` _if there is a cycle in the linked list_. Otherwise, return `fal
 > **Output:** true  
 > **Explanation:** There is a cycle in the linked list, where the tail connects to the 1st node (0-indexed).
 
-#### Example 2:
+**Example 2:**
 
 ![Example 2](/linked-list/linked-list-cycle/img/example2.png)
 
@@ -22,7 +22,7 @@ Return ``true`` _if there is a cycle in the linked list_. Otherwise, return `fal
 > **Output:** true  
 > **Explanation:** There is a cycle in the linked list, where the tail connects to the 0th node.
 
-#### Example 3:
+**Example 3:**
 
 ![Example 3](/linked-list/linked-list-cycle/img/example3.png)
 
@@ -30,13 +30,13 @@ Return ``true`` _if there is a cycle in the linked list_. Otherwise, return `fal
 > **Output:** false  
 > **Explanation:** There is no cycle in the linked list.
  
-#### Constraints:
+**Constraints:**
 
 - The number of the nodes in the list is in the range `[0, 104]`.
 - `-105 <= Node.val <= 105`
 - `pos` is `-1` or a **valid index** in the linked-list.
 
- #### Solutions:
+ **Solutions:**
 
  - [C#](/linked-list/linked-list-cycle/linked-list-cycle.cs)
  - [TypeScript](/linked-list/linked-list-cycle/linked-list-cycle.ts)

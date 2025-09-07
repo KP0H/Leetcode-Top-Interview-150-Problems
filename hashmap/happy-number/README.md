@@ -8,7 +8,7 @@ A **happy number** is a number defined by the following process:
 
 Return `true` _if_ `n` _is a happy number, and_ `false` _if not_.
 
-#### Example 1:
+**Example 1:**
 
 > **Input:** n = 19
 > **Output:** true
@@ -17,16 +17,16 @@ Return `true` _if_ `n` _is a happy number, and_ `false` _if not_.
 > 82 + 22 = 68
 > 62 + 82 = 100
 > 12 + 02 + 02 = 1
-#### Example 2:
+ **Example 2:**
 
 > **Input:** n = 2
 > **Output:** false
 
-#### Constraints:
+**Constraints:**
 
 - `1 <= n <= 231 - 1`
 
- #### Solutions:
+ **Solutions:**
 
  - [C#](/hashmap/happy-number/happy-number.cs)
  - [TypeScript](/hashmap/happy-number/happy-number.ts)

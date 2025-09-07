@@ -8,37 +8,37 @@ An input string is valid if:
 
 3. Every close bracket has a corresponding open bracket of the same type.
 
-#### Example 1:
+**Example 1:**
 
 > **Input:** s = "()"  
 > **Output:** true
 
-#### Example 2:
+**Example 2:**
 
 > **Input:** s = "()[]{}"  
 > **Output:** true
 
-#### Example 3:
+**Example 3:**
 
 > **Input:** s = "(]"  
 > **Output:** false
 
-#### Example 4:
+**Example 4:**
 
 > **Input:** s = "([])"  
 > **Output:** true
 
-#### Example 5:
+**Example 5:**
 
 > **Input:** s = "([)]"  
 > **Output:** false
 
-#### Constraints:
+**Constraints:**
 
 - `1 <= s.length <= 104`
 - `s` consists of parentheses only `'()[]{}'`.
 
- #### Solutions:
+ **Solutions:**
 
  - [C#](/stack/valid-parentheses/valid-parentheses.cs)
  - [TypeSctipt](/stack/valid-parentheses/valid-parentheses.ts)

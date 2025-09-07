@@ -4,31 +4,31 @@ A **subsequence** of a string is a new string that is formed from the original s
 
  
 
-#### Example 1:
+**Example 1:**
 
 > **Input:** s = "abc", t = "ahbgdc"  
 > **Output:** true
 
-####Example 2:
+**Example 2:**
 
 > **Input:** s = "axc", t = "ahbgdc"  
 > **Output:** false
  
 
-#### Constraints:
+**Constraints:**
 
 - `0 <= s.length <= 100`
 - `0 <= t.length <= 104`
 - `s` and `t` consist only of lowercase English letters.
 
 
-#### Solutions:
+**Solutions:**
 
 - [C#](/two-pointers/is-subsequence/is-subsequence.cs)
 - [TypeScript](/two-pointers/is-subsequence/is-subsequence.ts)
 - [Go](/two-pointers/is-subsequence/is-subsequence.go)
 
-#### Complexity
+**Complexity**
 - Time O(n) - we check each element once
 - Space O(1) - no extra arrays, just a counter 
 
