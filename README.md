@@ -68,3 +68,7 @@
 ##### Binary Search
 
 - [35. Search Insert Position](/binary-search/search-insert-position/README.md)
+
+##### Math
+
+- [9. Palindrome Number](/math/palindrome-number/README.md)
