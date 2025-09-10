@@ -42,8 +42,8 @@ Return ``true`` _if there is a cycle in the linked list_. Otherwise, return `fal
  - [TypeScript](/linked-list/linked-list-cycle/linked-list-cycle.ts)
  - [Go](/linked-list/linked-list-cycle/linked-list-cycle.go)
 
-**Follow up:** Can you solve it using `O(1)` (i.e. constant) memory?
-
 Complexity
 - Time O(n) - one pass
 - Space O(1) - constant memory
+
+**Follow up:** Can you solve it using `O(1)` (i.e. constant) memory?
