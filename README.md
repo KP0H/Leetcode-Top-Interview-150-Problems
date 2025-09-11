@@ -72,3 +72,7 @@
 ##### Math
 
 - [9. Palindrome Number](/math/palindrome-number/README.md)
+
+##### Bit Manipulation
+
+- [67. Add Binary](/bit-manipulation/add-binary/README.md)
