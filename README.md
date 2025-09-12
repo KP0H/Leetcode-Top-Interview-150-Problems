@@ -76,3 +76,7 @@
 ##### Bit Manipulation
 
 - [67. Add Binary](/bit-manipulation/add-binary/README.md)
+
+##### 1D DP
+
+- [70. Climbing Stairs](/1d-dp/climbing-stairs/README.md)
