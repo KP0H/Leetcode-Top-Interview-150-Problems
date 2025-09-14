@@ -73,6 +73,7 @@
 
 - [9. Palindrome Number](/math/palindrome-number/README.md)
 - [66. Plus One](/math/plus-one/README.md)
+- [69. Sqrt(x)](/math/sqrtx/README.md)
 
 ##### Bit Manipulation
 
