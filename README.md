@@ -12,6 +12,7 @@
 - [14. Longest Common Prefix](/array-string/longest-common-prefix/README.md)
 - [28. Find the Index of the First Occurrence in a String](/array-string/find-the-index-of-the-first-occurrence-in-a-string/README.md)
 - [80. Remove Duplicates from Sorted Array II](/array-string/remove-duplicates-from-sorted-array-II/README.md)
+- [189. Rotate Array](/array-string/rotate-array/README.md)
 
 #### Two Pointers
 - [125. Valid Palindrome](/two-pointers/valid-palindrome/README.md)
