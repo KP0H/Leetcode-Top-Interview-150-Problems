@@ -36,4 +36,4 @@ Given an integer array `nums`, rotate the array to the right by `k` steps, wh
 
 Complexity
 - Time O(n)
-- Space O(1)
+- Space O(1)/O(n)

@@ -20,3 +20,20 @@ func reverse(a []int, l, r int) {
 		r--
 	}
 }
+
+func rotateExtraArray(nums []int, k int) {
+	n := len(nums)
+	if n <= 1 {
+		return
+	}
+	k %= n
+	if k == 0 {
+		return
+	}
+
+	tmp := make([]int, n)
+	for i := 0; i < n; i++ {
+		tmp[(i+k)%n] = nums[i]
+	}
+	copy(nums, tmp)
+}

@@ -20,4 +20,17 @@ public class Solution
             l++; r--;
         }
     }
+
+    public void RotateExtraArray(int[] nums, int k) {
+        int n = nums.Length;
+        if (n <= 1) return;
+        k %= n;
+        if (k == 0) return;
+
+        var tmp = new int[n];
+        for (int i = 0; i < n; i++) {
+            tmp[(i + k) % n] = nums[i];
+        }
+        Array.Copy(tmp, nums, n);
+    }
 }

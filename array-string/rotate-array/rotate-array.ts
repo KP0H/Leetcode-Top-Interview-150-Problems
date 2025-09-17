@@ -18,3 +18,14 @@ function rotate(nums: number[], k: number): void {
         }
     }
 };
+
+function rotateExtraArray(nums: number[], k: number): void {
+  const n = nums.length;
+  if (n <= 1) return;
+  k %= n;
+  if (k === 0) return;
+
+  const tmp = new Array<number>(n);
+  for (let i = 0; i < n; i++) tmp[(i + k) % n] = nums[i];
+  for (let i = 0; i < n; i++) nums[i] = tmp[i];
+}
