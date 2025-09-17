@@ -29,3 +29,22 @@ function rotateExtraArray(nums: number[], k: number): void {
   for (let i = 0; i < n; i++) tmp[(i + k) % n] = nums[i];
   for (let i = 0; i < n; i++) nums[i] = tmp[i];
 }
+
+function rotateCycles(nums: number[], k: number): void {
+    const n = nums.length;
+    if (n <= 1) return;
+    k %= n;
+    if (k === 0) return;
+
+    let moved = 0;
+    for (let start = 0; moved < n; start++) {
+        let curr = start;
+        let prev = nums[start];
+        do {
+            const next = (curr + k) % n;
+            [nums[next], prev] = [prev, nums[next]];
+            curr = next;
+            moved++;
+        } while (curr !== start);
+    }
+}

@@ -37,3 +37,29 @@ func rotateExtraArray(nums []int, k int) {
 	}
 	copy(nums, tmp)
 }
+
+func rotateCycles(nums []int, k int) {
+	n := len(nums)
+	if n <= 1 {
+		return
+	}
+	k %= n
+	if k == 0 {
+		return
+	}
+
+	moved := 0
+	for start := 0; moved < n; start++ {
+		curr := start
+		prev := nums[start]
+		for {
+			next := (curr + k) % n
+			nums[next], prev = prev, nums[next]
+			curr = next
+			moved++
+			if curr == start {
+				break
+			}
+		}
+	}
+}
