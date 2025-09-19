@@ -14,6 +14,7 @@
 - [80. Remove Duplicates from Sorted Array II](/array-string/remove-duplicates-from-sorted-array-II/README.md)
 - [189. Rotate Array](/array-string/rotate-array/README.md)
 - [122. Best Time to Buy and Sell Stock II](/array-string/best-time-to-buy-and-sell-stock-II/README.md)
+- [55. Jump Game](/array-string/jump-game/README.md)
 
 #### Two Pointers
 - [125. Valid Palindrome](/two-pointers/valid-palindrome/README.md)
