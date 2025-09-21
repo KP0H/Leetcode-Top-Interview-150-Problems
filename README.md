@@ -16,6 +16,7 @@
 - [122. Best Time to Buy and Sell Stock II](/array-string/best-time-to-buy-and-sell-stock-II/README.md)
 - [55. Jump Game](/array-string/jump-game/README.md)
 - [45. Jump Game II](/array-string/jump-game-II/README.md)
+- [274. H-Index](/array-string/h-index/README.md)
 
 #### Two Pointers
 - [125. Valid Palindrome](/two-pointers/valid-palindrome/README.md)
