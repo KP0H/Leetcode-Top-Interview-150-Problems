@@ -64,7 +64,8 @@ For the last line of text, it should be left-justified, and no extra space is in
 #### Solutions:
 
 - [C#](./text-justification.cs)
-- [TypeScript](text-justification.ts)
+- [TypeScript](./text-justification.ts)
+- [Go](./text-justification.go)
 
 Complexity
 - Time O(sum(word))
