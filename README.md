@@ -19,6 +19,7 @@
 - [274. H-Index](/array-string/h-index/README.md)
 - [12. Integer to Roman](/array-string/integer-to-roman/README.md)
 - [68. Text Justification](/array-string/text-justification/README.md)
+- [151. Reverse Words in a String](/array-string/reverse-words-in-a-string/README.md)
 
 #### Two Pointers
 - [125. Valid Palindrome](/two-pointers/valid-palindrome/README.md)
