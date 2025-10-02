@@ -91,3 +91,7 @@
 ##### 1D DP
 
 - [70. Climbing Stairs](/1d-dp/climbing-stairs/README.md)
+
+##### Matrix
+
+- [36. Valid Sudoku](/matrix/valid-sudoku/README.md)
