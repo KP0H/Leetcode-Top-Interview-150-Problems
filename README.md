@@ -95,3 +95,4 @@
 ##### Matrix
 
 - [36. Valid Sudoku](/matrix/valid-sudoku/README.md)
+- [54. Spiral Matrix](/matrix/spiral-matrix/README.md)
