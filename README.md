@@ -34,6 +34,7 @@
 - [202. Happy Number](/hashmap/happy-number/README.md)
 - [242. Valid Anagram](/hashmap/valid-anagram/README.md)
 - [219. Contains Duplicate II](/hashmap/contains-duplicate-II/README.md)
+- [128. Longest Consecutive Sequence](/hashmap/longest-consecutive-sequence/README.md)
 
 #### Intervals
 
