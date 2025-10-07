@@ -43,6 +43,7 @@
 #### Stack
 
 - [20. Valid Parentheses](/stack/valid-parentheses/README.md)
+- [71. Simplify Path](/stack/simplify-path/README.md)
 
 ##### Linked List
 
