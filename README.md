@@ -35,6 +35,7 @@
 - [242. Valid Anagram](/hashmap/valid-anagram/README.md)
 - [219. Contains Duplicate II](/hashmap/contains-duplicate-II/README.md)
 - [128. Longest Consecutive Sequence](/hashmap/longest-consecutive-sequence/README.md)
+- [49. Group Anagrams](/hashmap/group-anagrams/README.md)
 
 #### Intervals
 
