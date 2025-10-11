@@ -50,6 +50,7 @@
 
 - [141. Linked List Cycle](/linked-list/linked-list-cycle/README.md)
 - [21. Merge Two Sorted Lists](/linked-list/merge-two-sorted-lists/README.md)
+- [2. Add Two Numbers](/linked-list/add-two-numbers/README.md)
 
 ##### Binary Tree General
 
